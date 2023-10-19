@@ -1,0 +1,114 @@
+Name: Altaf Mehdi Dhanji
+Student ID: DHA21548344
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*----Navbar----*/
+.indexheader {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(Images/background.jpeg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+
+}
+.nav-list{
+    flex: 1;
+    text-align: right;
+}
+.nav-list ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-list ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffdab9;
+    display: block;
+    margin: auto;
+    transition: 1s;
+  }
+  .nav-list ul li a:hover::after {
+    width: 100%;
+}
+/*----Homepage----*/
+.hometext{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-style: solid;
+}
+/*----Subpage nav----*/
+.header{
+    background: black;
+}
+/*----Shop----*/
+* {
+    box-sizing: border-box;
+  }
+  .column {
+    width: 20%;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 1px;
+  }
+  .flex-container {
+    justify-content: space-around;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+  .column h5{
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+  }
+  .column p{
+      text-align: center;
+      font-size: 12px;
+      margin-top: -3px;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+/*----About Us----*/
+.aboutus{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+.aboutus img{
+    height: 300px;
+    width: 300px;
+}
+/*----Contact Us----*/
+.hours{
+    text-align: center;
+}
